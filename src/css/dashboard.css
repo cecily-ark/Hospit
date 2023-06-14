@@ -1,0 +1,65 @@
+.dashboard {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 2px;
+}
+.dashboard header {
+  display: flex;
+  justify-content: space-between;
+}
+.profile {
+  display: flex;
+  margin-top: 2rem;
+}
+.record {
+  display: flex;
+  background-color: silver;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  border-radius: 0.7rem;
+}
+.record-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.record-card p {
+  background-color: bisque;
+  margin-left: 0.5rem;
+}
+.calender {
+  margin-top: 1rem;
+  background-color: black;
+  height: 4rem;
+}
+.calender div {
+  float: right;
+  width: 15rem;
+  height: 2rem;
+  background-color: aliceblue;
+  border-radius: 0.5rem;
+}
+.table-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.table-lis td {
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 1rem;
+}
+.profile-contain {
+  display: flex;
+}
+td div{
+    display: flex;
+}
+th div{
+    display: flex;
+    flex-direction: column;
+}
