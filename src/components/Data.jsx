@@ -1,0 +1,78 @@
+export const Record = [
+  {
+    icon: "fa fa-user",
+    number: "1000",
+    user: "doctors",
+  },
+  {
+    icon: "fa fa-user",
+    number: "1000",
+    user: "doctors",
+  },
+  {
+    icon: "fa fa-user",
+    number: "1000",
+    user: "doctors",
+  },
+  {
+    icon: "fa fa-user",
+    number: "1000",
+    user: "doctors",
+  },
+];
+export const maindata = [
+  {
+    img: "/profile.png",
+    username: "jboy",
+    service: "hhhh",
+    date: "05/09/23",
+    action: "",
+    actrue: true,
+    acfalse: false,
+  },
+  {
+    img: "/profile.png",
+    username: "jboy",
+    service: "hhhh",
+    date: "05/09/23",
+    action: "",
+    actrue: true,
+    acfalse: false,
+  },
+  {
+    img: "/profile.png",
+    username: "jboy",
+    service: "hhhh",
+    date: "05/09/23",
+    action: "",
+    actrue: true,
+    acfalse: false,
+  },
+  {
+    img: "/profile.png",
+    username: "jboy",
+    service: "hhhh",
+    date: "05/09/23",
+    action: "",
+    actrue: true,
+    acfalse: false,
+  },
+  {
+    img: "/profile.png",
+    username: "jboy",
+    service: "hhhh",
+    date: "05/09/23",
+    action: "",
+    actrue: true,
+    acfalse: false,
+  },
+  {
+    img: "/profile.png",
+    username: "jboy",
+    service: "hhhh",
+    date: "05/09/23",
+    action: "",
+    actrue: true,
+    acfalse: false,
+  },
+];

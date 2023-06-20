@@ -1,0 +1,103 @@
+.main-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sidebar {
+  width: 30%;
+  background-color: black;
+}
+.dashbaord-doctor {
+  width: 70%;
+  padding: 3rem 3rem;
+  background-color: rgb(251, 245, 245);
+}
+.frame {
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 100%;
+  border: 2px solid blue;
+  /* padding: 1rem; */
+}
+.frame header {
+  display: flex;
+  justify-content: space-between;
+}
+.adim {
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* background-color: brown; */
+  height: 1.7rem;
+}
+.adim select {
+  border: none;
+  background-color: transparent;
+}
+.frame input {
+  width: 20rem;
+  height: 2rem;
+}
+.frame h3 {
+  margin-top: -1px;
+}
+.status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.card {
+  width: 12.9rem;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+.hold {
+  display: flex;
+  background-color: rgb(252, 250, 250);
+  border: 1px solid black;
+  padding: 0 1rem;
+
+  justify-content: space-between;
+}
+.view {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  margin-top: 1rem;
+}
+.path {
+  margin-top: 1rem;
+}
+.info {
+  margin-top: 1rem;
+  width: 100%;
+}
+.doctor-sec {
+  /* position: relative; */
+  padding: 1rem;
+  /* background-color: green; */
+  display: flex;
+  /* justify-content: space-between; */
+}
+.doctor-card {
+  /* position: relative; */
+  /* background-color: purple; */
+  width: 10rem;
+  display: inline;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.doctor-card img {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 1rem;
+}
