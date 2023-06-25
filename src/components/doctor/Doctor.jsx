@@ -108,7 +108,7 @@ function Doctor({ head }) {
                         <FaUserPlus size={30} />
                       </div>
                     </div>
-                    <div className="view">view more &rarr;</div>
+                    <div className="view"><p>view more </p> <p>&rarr;</p></div>
                   </div>
                 );
               })}
@@ -128,10 +128,12 @@ function Doctor({ head }) {
                 {data1.map((item) => (
                   <div className="doctor-card">
                     <img src={item.profile} alt="" className="doc-img" />
+                    <div className="infor">
                     <p>{item.residence}</p>
-                    <h2>{item.name}</h2>
+                    <h4>{item.name}</h4>
                     <p>{item.department}</p>
                     <p>{item.email}</p>
+                    </div>
                   </div>
                 ))}
               </div>
